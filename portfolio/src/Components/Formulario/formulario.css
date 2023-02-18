@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    padding: 2rem;
+    height: 80vh;
+
+}
+
+.msj{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    padding-bottom: 8rem;
+    padding-right: 8rem;
+    border: none;
+    border-radius: 0.5rem; 
+}
+::placeholder{
+    color: #0057ff;
+    text-align: left;
+}
+.enviar{
+    margin-top: 1rem;
+    border-radius: 3rem; 
+    border: none;
+    color: white;
+    background-color: #0057ff;
+    padding: 0.6rem;
+}
+

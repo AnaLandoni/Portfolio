@@ -1,0 +1,76 @@
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.btnnav1{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #9ab5d2;
+    border: none;
+    margin-left: 0.3rem;
+}
+.btnnav2{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background-color: #9ab5d2;
+    padding: 0.7rem;
+    margin-left: 0.3rem;
+
+}
+.Fotoperfilchica{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    
+}
+
+.NombreLink{
+    padding-left: 2rem;
+    padding-right: 2rem;
+} 
+
+.NombreLink>h1{
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+}
+
+.NombreLink>h2{
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 200;
+    margin-top: -1.5rem;
+}
+
+.iconolink{
+    color: white;
+    font-size: 1rem;
+}
+@media(max-width: 750px){
+    .NombreLink>h1{
+        display: none;
+        
+    }
+    .logo{
+        margin-top: 1rem ;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .NombreLink>h2{
+        padding-top: 1.5rem;
+        font-size: 1rem;
+        
+    }
+}

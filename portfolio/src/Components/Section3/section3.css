@@ -1,0 +1,47 @@
+.languages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec3{
+    padding-left: 1%;
+    text-align: center;
+}
+
+.titulo3{
+    display: flex;
+    justify-content: left;
+    display: inline-block;
+    margin-right: 2rem; 
+    color: var(--colortipografiaprimaria);
+    font-family: var(--Tipografiatitulos);
+    font-weight: 300;
+}
+
+.linea3{
+    width: 80%;
+    display: inline-block;
+    border: 1px solid; 
+    color: #9ab5d2;  
+}
+.IdiomasVarios >h1{
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.IdiomasVarios >h2{
+    font-family: var(--Tipografiaparrafos);
+    color: var(--colortipografiasecundariaintensa);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@media(max-width:1099px) {
+    .linea3{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+}

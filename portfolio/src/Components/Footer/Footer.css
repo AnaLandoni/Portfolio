@@ -1,0 +1,40 @@
+.footer{
+    padding: 5rem;
+    background-color: #000000;
+    text-align: center;
+}
+.btnlike{
+    border-radius: 90px;
+    height: 85px;
+    width: 85px;
+    background-color:  #0057ff;
+}
+.btnlike:hover{
+    background-color: #353535;
+}
+.manolike{
+    font-size: 2rem;
+    color: white;
+}
+.cv{
+    color: white;
+    font-family: var(--Tipografiatitulos);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-right: -0.5rem;
+}
+.cuentas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6a6a6a;
+}
+.cvicono{
+    padding: 0.5rem;
+}
+h5{
+    font-size: 1rem;
+    margin-top: -0.5rem;
+
+}
+

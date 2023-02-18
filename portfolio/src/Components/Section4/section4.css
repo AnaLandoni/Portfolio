@@ -1,0 +1,192 @@
+.titulo4{
+    display: flex;
+    justify-content: left;
+    display: inline-block;
+    /* margin-right: 2rem;  */
+    color: var(--colortipografiaprimaria);
+    font-family: var(--Tipografiatitulos);
+    font-weight: 300;
+}
+.sec4{
+    padding-left: 1%;
+    text-align: center;
+}
+.linea4{
+    width: 75%;
+    display: inline-block;
+    border: 1px solid; 
+    color: #9ab5d2; 
+    margin-left: 1rem; 
+}
+/* .experiencias{
+    margin-left: 3%;
+}
+ */
+
+.experiencias>.experiencia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Trabajo{
+    width: 40%;
+    /* margin-left: 5rem; */
+}
+.Trabajo>p{
+    text-align: justify;
+    font-family: var(--Tipografiaparrafos);
+    color: var(--Tipografiatitulos);
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: -0.05rem;
+  
+}
+.Trabajo>div{
+    display: flex;
+    align-items: center;
+} 
+.Trabajo>h3{
+    font-style: italic;
+    font-family: var(--Tipografiaparrafos);
+    font-size: 0.8rem;
+    color: var(--Tipografiatitulos);
+    font-weight: 100;
+    text-align: left;
+    margin-top: -0.6rem;
+}
+.work>h1{
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.work>a{
+    font-family: var(--Tipografiatitulos);
+    border: none;
+    border-radius: 10rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+    /* width: 8rem; */
+    text-align: center;
+    text-decoration: none;
+    background-color: #9ab5d2;
+}
+
+
+@media(min-width:760px) and (max-width:1099px) {
+    .linea4{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+    .work>h1{
+        font-size: 1.3rem;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+    }
+    .Trabajo>p{
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+    .Trabajo>h3{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+
+}
+
+@media(min-width:670px) and (max-width:759px) {
+
+    .linea4{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+
+    .work>h1{
+        font-size: 1.15rem;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+    }
+    .Trabajo>p{
+        font-size: 0.95rem;
+        padding-top: 0.4rem;
+    }
+    .Trabajo>h3{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+}
+@media(min-width:580px) and (max-width:669px) {
+
+    
+    .linea4{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+    .work>h1{
+        font-size: 1rem;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+    }
+    .Trabajo>p{
+        font-size: 0.85rem;
+        padding-top: 0.3rem;
+    }
+    .Trabajo>h3{
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:579px){
+
+    .linea4{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+
+    .experiencias>.experiencia{
+        flex-direction: column;
+    }
+    .work{
+        display: flex;
+        justify-content: center;
+    }
+    .Trabajo{
+        width: 100%;
+    }
+    .work>h1{
+        font-size: 1.15rem;
+    }
+    
+    .Trabajo>p{
+        font-size: 0.95rem;
+        margin-left: 1rem;
+
+    }
+    .Trabajo>h3{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+}
+

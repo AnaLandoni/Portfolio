@@ -1,0 +1,264 @@
+
+.titulos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.box>h1{
+    margin-right: 2rem;
+    font-size: 2rem; 
+    color: var(--colortipografiaprimaria);
+    font-family: var(--Tipografiatitulos);
+    font-weight: 300;
+}
+
+.linea{
+    width: 80%;
+    display: inline-block;
+    border: 1px solid;
+    height: 0px;
+    padding: 0;
+    margin-top: 1rem;
+    color: #9ab5d2;  
+}
+ 
+.contenido{
+    display: flex;
+}
+.contenido>.WorkFree{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido>.Programas{
+    width: 50%;
+}
+.programa>h2{
+    text-align: justify;
+    font-family: var(--Tipografiaparrafos);
+    color: var(--Tipografiatitulos);
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-top: 1.6rem;
+}
+
+.Programas>.programa{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5rem;
+    margin-bottom: -3rem;
+    margin-left: 5rem;
+}
+
+.puntos{
+    transform: rotate(90deg);
+    font-size: 1.5rem;
+    margin-top: -1.6rem;
+    padding-left: 1rem;
+}
+
+.puntos>.s{
+    list-style-type: disc;
+}
+.puntos>.n{
+    list-style-type: disc;
+    color: #c1d7ef;;
+}
+
+.WorkFree>h1{
+    font-size: 1.5rem;
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 500;
+}
+.WorkFree>p{
+    text-align: justify;
+    width: 80%;
+    font-family: var(--Tipografiaparrafos);
+    color: var(--Tipografiatitulos);
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: -0.05rem;
+}
+.fecha{
+    font-style: italic;
+    font-family: var(--Tipografiaparrafos);
+    font-size: 0.8rem;
+    color: var(--Tipografiatitulos);
+    font-weight: 100;
+    margin-top: -0.6rem;
+}
+
+
+
+@media(min-width:700px) and (max-width:850px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .box>h1{
+        margin-right: 0rem;
+        font-size: 1.7rem; 
+    }
+    .linea{
+        width: 100%;
+        margin-right: 0rem;  
+    }
+    .WorkFree>h1{
+        font-size: 1.2rem;
+   
+    }
+    .WorkFree>p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .fecha{
+        font-size: 0.7rem;
+    }
+    .Programas>.programa{ 
+        margin-bottom: -2rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    .programa>h2{
+       font-size: 1rem;
+    }
+    .puntos{
+        font-size: 1.2rem;
+        margin-top: -0.9rem;
+    }
+   
+}
+
+@media(min-width:600px) and (max-width:699px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .box>h1{
+        margin-right: 0rem;
+        font-size: 1.7rem; 
+    }
+    .linea{
+        width: 100%;
+        margin-right: 0rem;  
+    }
+    .WorkFree>h1{
+        font-size: 1.2rem;
+   
+    }
+    .WorkFree>p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .fecha{
+        font-size: 0.7rem;
+    }
+    .Programas>.programa{ 
+        margin-bottom: -1.6rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    .programa>h2{
+       font-size: 1rem;
+    }
+    .puntos{
+        font-size: 1.2rem;
+        margin-top: -0.9rem;
+    }
+   
+}
+@media(min-width:500px) and (max-width:599px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .box>h1{
+        margin-right: 0rem;
+        font-size: 1.7rem; 
+    }
+    .linea{
+        width: 100%;
+        margin-right: 0rem;  
+    }
+    .WorkFree>h1{
+        font-size: 1.2rem;
+   
+    }
+    .WorkFree>p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .fecha{
+        font-size: 0.7rem;
+    }
+    .Programas>.programa{ 
+        margin-bottom: -1.3rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .programa>h2{
+       font-size: 0.95rem;
+    }
+    .puntos{
+        font-size: 1.2rem;
+        margin-top: -0.9rem;
+    }
+   
+}
+
+@media(max-width:499px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .box>h1{
+        margin-right: 0rem;
+        font-size: 1.7rem; 
+    }
+    .linea{
+        width: 100%;
+        margin-right: 0rem; 
+    }
+    .WorkFree>h1{
+        font-size: 1.2rem;
+   
+    }
+    .WorkFree>p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .fecha{
+        font-size: 0.7rem;
+    }
+    .Programas>.programa{ 
+        margin-bottom: -1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .programa>h2{
+       font-size: 0.95rem;
+    }
+    .puntos{
+        font-size: 1.2rem;
+        margin-top: -0.9rem;
+    }
+   
+}
+
+  

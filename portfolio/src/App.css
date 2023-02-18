@@ -1,0 +1,15 @@
+body{
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --colortipografiaprimaria: #242424;
+    --colortipografiasecundiaria: #b2b2b8;
+    --colortipografiasecundariaintensa:#999d9e;
+    --colortipografiaterciaria: #cacad0;
+    --colorelementos: #9ab5d2;
+    --Tipografiasecundaria: 'Poppins', sans-serif;
+    --Tipografiatitulos:  'Outfit', sans-serif;
+    --Tipografiaparrafos:'Plus Jakarta Sans', sans-serif;
+}

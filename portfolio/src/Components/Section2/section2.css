@@ -1,0 +1,147 @@
+
+.contenedores{
+    display: flex;
+    justify-content: space-around;
+
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.estudio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.sec2{
+    padding-left: 1%;
+    text-align: center;
+}
+.titulo2{
+    display: flex;
+    justify-content: left;
+    display: inline-block;
+    margin-right: 2rem;
+    color: var(--colortipografiaprimaria);
+    font-family: var(--Tipografiatitulos);
+    font-weight: 300;
+    
+}
+.linea2{
+    width: 80%;
+    display: inline-block;
+    border: 1px solid; 
+    color: #9ab5d2;  
+}
+
+.study{
+   padding-left: 1rem;
+}
+
+.degree{
+    font-size: 3rem;
+    color: #9ab5d2;
+   /*  padding-left: 2rem; */
+
+}
+.degreetitulo{
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+.universidad{
+    font-family: var(--Tipografiaparrafos);
+    color: var(--colortipografiasecundiaria);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@media(min-width:809px) and (max-width:944px) {
+    .linea2{
+        width: 100%;
+        margin-right: 0rem;  
+    }
+    .degreetitulo{
+        font-size: 1.3rem;
+    }
+    .universidad{
+        font-size: 0.85rem;
+    }
+    .degree{
+        font-size: 2.5rem;    
+    }
+    
+}
+
+@media(min-width:750px) and (max-width:808px) {
+    .linea2{
+        width: 100%;
+        margin-right: 0rem;    
+    }
+    .degreetitulo{
+        font-size: 1.2rem;
+    }
+    .universidad{
+        font-size: 0.8rem;
+    }
+    .degree{
+        font-size: 2.3rem;    
+    }
+    
+
+
+}
+@media(min-width:638px) and (max-width:749px) {
+    .linea2{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+    .degreetitulo{
+        font-size: 1.1rem;
+    }
+    .universidad{
+        font-size: 0.75rem;
+    }
+    .degree{
+        font-size: 2.2rem; 
+        padding-left: 0.5rem;   
+    }
+    .contenedor1{
+        width: 50%;
+    }
+    .contenedor2{
+        width: 50%;
+    }
+    
+}
+
+
+@media(max-width:637px){
+    .linea2{
+        width: 100%;
+        margin-right: 0rem;
+       
+    }
+    .degreetitulo{
+        font-size: 1rem;
+    }
+    .universidad{
+        font-size: 0.6rem;
+    }
+    .degree{
+        font-size: 2.1rem;    
+        padding-left: 0.2rem;
+    }
+    .contenedor1{
+        width: 45%;
+    }
+    .contenedor2{
+        width: 45%;
+    }
+    
+}
