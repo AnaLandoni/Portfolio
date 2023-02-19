@@ -11,7 +11,8 @@ import { Section5 } from './Components/Section5';
 import { Formulario } from './Components/Formulario';
 import { Footer } from './Components/Footer';
 import { Navbar } from './Components/Navbar';
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (

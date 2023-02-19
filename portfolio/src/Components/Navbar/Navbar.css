@@ -56,6 +56,12 @@
     color: white;
     font-size: 1rem;
 }
+
+.fotouser{
+    max-width: 40px;
+    border-radius: 100px;
+    border: solid white;
+}
 @media(max-width: 750px){
     .NombreLink>h1{
         display: none;

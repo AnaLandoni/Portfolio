@@ -1,6 +1,6 @@
 import React from "react";
 import './Navbar.css'
-/* import Fotobtn from './assets/FotoperfilIconochica.jpg' */
+import Fotobtn from '../Header/assets/FotoPerfilchica.jpg'
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="Navbar">
             <div className="logo">
                 <NavLink to='/'>
-                    <button className="Fotoperfilchica"></button>
+                    <img src={Fotobtn} alt="fotouser" className="fotouser"/>
                 </NavLink>
                 <div className="NombreLink">
                     <h1>Curriculum</h1>
