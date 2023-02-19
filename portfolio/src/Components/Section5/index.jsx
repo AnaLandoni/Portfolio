@@ -18,9 +18,9 @@ const Section5 = () => {
         <div className="contenido">
             <div className="WorkFree">
                 <h1>Proyecto de Inversión</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit hic dolor ducimus inventore. Similique nisi exercitationem ipsa, amet cumque doloremque dolorem officia dolor. Sunt vero unde dolor velit quis aliquam!<br /><span className="fecha">Marzo 2020 a Noviembre 2021</span></p>
+                <p>Desarrollo de un proyecto de inversión para la creación de una marca de ginebra. El mismo comprendía el proceso de elaboración, montaje y acondicionamiento de la destilería y posterior venta del producto.<br /><span className="fecha">Marzo 2020 a Noviembre 2021</span></p>
                 <h1>Creación de una App</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit hic dolor ducimus inventore. Similique nisi exercitationem ipsa, amet cumque doloremque dolorem officia dolor. Sunt vero unde dolor velit quis aliquam!<br /><span className="fecha">Febrero 2023 - Actualidad</span></p>
+                <p>Desarrollo de una página web para la Fiesta de la Chopera Santa Fe. El objetivo de esta página es permitir la interacción con los asistentes de la fiesta, relevando datos y encuestas importantes para el desarrollo del evento.<br /><span className="fecha">Febrero 2023 - Actualidad</span></p>
             </div>
             <div className="Programas">
                 <div className="programa">

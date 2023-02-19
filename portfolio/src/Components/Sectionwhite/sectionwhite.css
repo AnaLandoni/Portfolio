@@ -5,3 +5,68 @@
 .margencolor{
     margin-bottom: 8%;
 }
+.estrella{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color:  #9ab5d2; 
+    border:  #9ab5d2 solid;
+    position: absolute; 
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.8;
+    animation: estrellas 3s linear infinite;
+}
+.estrella:nth-child(1){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    left: 5%;
+}
+.estrella:nth-child(2){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    left: 80%;
+}
+.estrella:nth-child(3){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    left: 45%;
+}
+.estrella:nth-child(3){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    top: 20%;
+}
+.estrella:nth-child(4){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    top: 25%;
+}
+.estrella:nth-child(5){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    left: 50%;
+}
+.estrella:nth-child(6){
+    width: 1%;
+    height: 2%;
+    animation-duration: 3s;
+    top: 80%;
+}
+
+@keyframes estrellas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.8;
+    }
+}

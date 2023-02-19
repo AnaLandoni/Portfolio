@@ -2,6 +2,7 @@ import { useState } from 'react';
 import React from "react";
 import './Footer.css';
 
+
 const Footer = () => {
     const [Likes, setLikes] = useState(0);
     const sumar = () => {

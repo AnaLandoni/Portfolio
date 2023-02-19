@@ -16,7 +16,7 @@ const Section4 = () => {
                         <h1>Coordinadora Logistica</h1>
                         <a href="https://www.linkedin.com/company/musimundo/">MUSIMUNDO</a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio adipisci atque dicta tempore fugit harum labore quod amet provident nulla aliquam accusamus voluptas esse suscipit molestias natus, saepe sequi nostrum.</p>
+                    <p>Contratar y coordinar personal de logística en función de las disponibilidades y requerimientos. Planificar y realizar el cronograma de reposición semanal abasteciendo las 260 sucursales del país, como así también, el seguimiento el envío de productos a clientes (ultima milla).</p>
                     <h3>Febrero 2022 a Febrero 2023</h3>
                 </div>
                 <div className="Trabajo">

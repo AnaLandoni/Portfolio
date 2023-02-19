@@ -26,6 +26,8 @@ const Header = () => {
         </div>
         
         <img src={FotoPerfil} alt="fotoperfil" className="foto"/>
+
+       
         
         </div>
     )

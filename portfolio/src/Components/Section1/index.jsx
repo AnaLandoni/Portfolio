@@ -21,6 +21,7 @@ const Section1 = () => {
                     <h2 className="direc">www.instagram.com/ani_landoni</h2>
                 </div>
             </div> 
+           
         </div>
     )
 }
