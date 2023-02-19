@@ -6,7 +6,7 @@ const Formulario = () => {
         <div>
             <form action="https://formspree.io/f/xbjegzjn" method="post">
                 <div className="msj">
-                    <input type="textarea" name="mensaje" className="mensaje" placeholder="Tu mensaje"/>
+                    <textarea name="mensaje" id="mensaje" className="mensaje" /* wrap="hard" */ placeholder="Tu mensaje"></textarea>
                     <button type="submit" className="enviar">Enviar</button>
                 </div>
             </form>

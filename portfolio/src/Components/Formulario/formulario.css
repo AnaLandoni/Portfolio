@@ -3,7 +3,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #191919;
+    background-color:  #f3f3f3;
     padding: 2rem;
     height: 80vh;
 
@@ -15,15 +15,17 @@ form{
 }
 
 .mensaje{
-    padding-bottom: 8rem;
-    padding-right: 8rem;
-    border: none;
+    border: solid 1px #0057ff;
     border-radius: 0.5rem; 
+    width: 40vw;
+    height: 25vh;
+    resize: none;
 }
 ::placeholder{
-    color: #0057ff;
-    text-align: left;
+    color:  #0057ff;
 }
+
+
 .enviar{
     margin-top: 1rem;
     border-radius: 3rem; 
@@ -33,3 +35,6 @@ form{
     padding: 0.6rem;
 }
 
+.enviar:hover{
+    background-color: #353535;
+}

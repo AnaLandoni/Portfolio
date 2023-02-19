@@ -29,7 +29,17 @@
     margin-top: 1rem;
     color: #9ab5d2;  
 }
- 
+.lineafin{
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+    border: 1px solid;
+    height: 0px;
+    padding: 0;
+    color: #9ab5d2;  
+    
+
+} 
 .contenido{
     display: flex;
 }

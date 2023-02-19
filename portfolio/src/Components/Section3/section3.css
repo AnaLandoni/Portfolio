@@ -37,6 +37,14 @@
     font-weight: 300;
     font-size: 1rem;
 }
+.pagina{
+    text-align: center;
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 8%;
+}
 
 @media(max-width:1099px) {
     .linea3{

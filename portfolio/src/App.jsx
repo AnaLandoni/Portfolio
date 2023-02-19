@@ -12,6 +12,8 @@ import { Formulario } from './Components/Formulario';
 import { Footer } from './Components/Footer';
 import { Navbar } from './Components/Navbar';
 import {Routes, Route} from 'react-router-dom';
+import { Skill } from './Components/Skill';
+import { Sectionwhite } from './Components/Sectionwhite';
 
 
 function App() {
@@ -19,8 +21,9 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<><Header /><Section1 /><Section2/><Section3/><Section4/><Section5/><Footer/></>}/>
+        <Route path='/' element={<><Header /><Section1 /><Section2/><Section3/><Sectionwhite/><Section4/><Section5/><Footer/></>}/>
         <Route path='/formulario' element={<Formulario/>}/>
+        <Route path='/skill' element={<Skill/>}/>
       </Routes>
     </div>
   )

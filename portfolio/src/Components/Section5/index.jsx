@@ -97,6 +97,8 @@ const Section5 = () => {
 
 
         </div>
+        <hr className="lineafin"/>
+        <h1 className="pagina">2/2</h1>
         </div>
     )
 }

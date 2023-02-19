@@ -23,6 +23,7 @@ const Section3 = () => {
                 <h2>Nivel: B1</h2>
             </div>
         </div>
+        <h1 className="pagina">1/2</h1>
         </div>
     )
 }

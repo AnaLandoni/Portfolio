@@ -1,0 +1,51 @@
+.Habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.Habilidades>p{
+    text-align: justify;
+    font-family: var(--Tipografiaparrafos);
+    color: var(--Tipografiatitulos);
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    width: 70%;
+}
+
+.seguime{
+    font-family: var(--Tipografiatitulos);
+    color: var( --colortipografiaprimaria);
+    font-weight: 500;
+    font-size: 1rem;
+    color: white ;
+}
+.seguime:hover{
+    cursor: pointer;
+    background-color:  #5ab5d2;
+}
+.linkein{
+    margin-top: 1rem;
+    border: none;
+    background-color:  #9ab5d2;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+@media(max-width:499px){
+
+    .Habilidades>p{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .seguime{
+        font-size: 0.8rem;  
+    }
+
+    .linkein{
+        padding: 0.3rem;
+    }
+}
