@@ -13,9 +13,9 @@ const Sectionwhite = () => {
                 <div className="estrella"></div>
                 <div className="estrella"></div>
                 <div className="estrella"></div>
+                <div className="estrella"></div>
             </div>
         </div>
-        
     )
 }
 export {Sectionwhite}
