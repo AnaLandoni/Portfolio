@@ -57,11 +57,11 @@
 }
 
 .letra{
-    color: #9ab5d2;
+    color: #242424;
     transition: color 500ms ease-in-out;
 }
 .letra:hover{
-    color: #242424;
+    color:  #9ab5d2;
     
 }
 
@@ -86,17 +86,17 @@
     font-weight: 300;
     font-size: 1.2rem;
 }
-@media(min-width:1400px) and (max-width:1680px) {
+@media(min-width:1600px) and (max-width:1680px) {
 
     .nombre{
         font-size: 6rem;
         padding-top: 0rem;
-        padding-left: 2.3rem;
+        padding-left: 4.5rem;
       
     }
     .apellido{
         font-size: 6rem;
-        padding-left: 2.3rem;
+        padding-left: 4.5rem;
     }
 
     .ing{
@@ -117,6 +117,40 @@
     
  
 }
+
+@media(min-width:1500px) and (max-width:1599px) {
+
+    .nombre{
+        font-size: 6rem;
+        padding-top: 0rem;
+        padding-left: 3.2rem;
+      
+    }
+    .apellido{
+        font-size: 6rem;
+        padding-left: 3.2rem;
+    }
+
+    .ing{
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    } 
+    .letra{
+        color:  #242424;
+    }
+    .iconoperfil{
+        padding-right: 0rem;
+        font-size: 2rem;
+    }
+    .DirecContacto{
+        font-size: 1.6rem;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    
+ 
+}
+
 @media(min-width:1400px) and (max-width:1499px) {
 
     .nombre{
@@ -143,8 +177,23 @@
     }
 }
 
+@media(min-width:1320px) and (max-width:1399px) {
+    .foto{
+        max-width: 550px;
+        width: 100%;
+        height: 100%;
+    }  
+    .nombre{
+        padding-left: 1.5rem;
+      
+    }
+    .apellido{
+        padding-left: 1.5rem;
+    }
+}
 
-@media(min-width:1235px) and (max-width:1300px) {
+
+@media(min-width:1235px) and (max-width:1319px) {
     .foto{
         max-width: 550px;
         width: 80%;
@@ -190,35 +239,83 @@
 @media(min-width:1100px) and (max-width:1139px) {
     .foto{
         max-width: 460px;
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }  
     .nombre{
         font-size: 4.2rem;
+        margin-top: -1rem;
     }
     .apellido{
         font-size: 4.2rem;
+        margin-top: -1rem;
     }
     .ing{
         font-size: 0.9rem;
     }
     .textoperfil{
-        margin-top: 1rem;
+        margin-top: -1rem;
     }
 }
 
-@media(min-width:985px) and (max-width:1099px) {
+@media(min-width:1075px) and (max-width:1099px) {
+    .foto{
+        max-width: 450px;
+        width: 100%;
+        height: 100%;
+    }  
+    .nombre{
+        font-size: 4rem;
+        margin-top: 0.5rem;
+    }
+    .apellido{
+        font-size: 4rem;
+        margin-top: -1rem;
+    }
+    .ing{
+        font-size: 0.90rem;
+    }
+    .textoperfil{
+        margin-top: -3rem;
+    }
+}
+
+
+@media(min-width:1040px) and (max-width:1074px) {
     .foto{
         max-width: 440px;
         width: 100%;
         height: 100%;
     }  
     .nombre{
-        font-size: 3.7rem;
-        margin-top: 0.5rem;
+        font-size: 3.8rem;
+        margin-top: 0rem;
     }
     .apellido{
-        font-size: 3.7rem;
+        font-size: 3.8rem;
+        margin-top: -1rem;
+    }
+    .ing{
+        font-size: 0.90rem;
+    }
+    .textoperfil{
+        margin-top: -3rem;
+    }
+}
+
+
+@media(min-width:1000px) and (max-width:1039px) {
+    .foto{
+        max-width: 420px;
+        width: 100%;
+        height: 100%;
+    }  
+    .nombre{
+        font-size: 3.6rem;
+        margin-top: 1rem;
+    }
+    .apellido{
+        font-size: 3.6rem;
         margin-top: -1rem;
     }
     .ing{
@@ -229,19 +326,93 @@
     }
 }
 
-@media(min-width:960px) and (max-width:984px) {
+@media(min-width:985px) and (max-width:999px) {
     .foto{
-        max-width: 420px;
+        max-width: 410px;
         width: 100%;
         height: 100%;
     }  
     .nombre{
-        font-size: 3.4rem;
-        padding-top: -1.6rem;
+        font-size: 3.45rem;
+        margin-top: 1rem;
     }
     .apellido{
-        font-size: 3.4rem;
-        padding-top: 1rem;
+        font-size: 3.45rem;
+        margin-top: -1rem;
+    }
+    .ing{
+        font-size: 0.85rem;
+    }
+    .textoperfil{
+        margin-top: -3rem;
+    }
+}
+@media(min-width:960px) and (max-width:984px) {
+    .foto{
+        max-width: 405px;
+        width: 100%;
+        height: 100%;
+    }  
+    .nombre{
+        font-size: 3.3rem;
+        margin-top: 0rem;
+        
+    }
+    .apellido{
+        font-size: 3.3rem;
+        margin-top: -1.4rem;
+
+    }
+    .ing{
+        font-size: 0.85rem;
+    }
+    .textoperfil{
+        margin-top: -4rem;
+    }
+    .DirecContacto{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:943px) and (max-width:959px) {
+    .foto{
+        max-width: 400px;
+        width: 100%;
+        height: 100%;
+    }  
+    .nombre{
+        font-size: 3.2rem;
+        margin-top: 0rem;
+    }
+    .apellido{
+        font-size: 3.2rem;
+        margin-top: -1.7rem;
+    }
+    .ing{
+        font-size: 0.8rem;
+    }
+    .textoperfil{
+        margin-top: -3rem;
+    }
+    .DirecContacto{
+        font-size: 1rem;
+    }
+}
+
+
+@media(min-width:910px) and (max-width:942px) {
+    .foto{
+        max-width: 400px;
+        width: 80%;
+        height: 80%;
+    }  
+    .nombre{
+        font-size: 3rem;
+        margin-top: 0.8rem;
+    }
+    .apellido{
+        font-size: 3rem;
+        margin-top: -2rem;
     }
     .ing{
         font-size: 0.8rem;
@@ -254,60 +425,9 @@
     }
 }
 
-@media(min-width:943px) and (max-width:959px) {
+@media(min-width:890px) and (max-width:909px) {
     .foto{
-        max-width: 405px;
-        width: 100%;
-        height: 100%;
-    }  
-    .nombre{
-        font-size: 3.2rem;
-        padding-top: -1.6rem;
-    }
-    .apellido{
-        font-size: 3.2rem;
-        padding-top: 1rem;
-    }
-    .ing{
-        font-size: 0.8rem;
-    }
-    .textoperfil{
-        margin-top: -3rem;
-    }
-    .DirecContacto{
-        font-size: 1rem;
-    }
-}
-
-
-@media(min-width:900px) and (max-width:942px) {
-    .foto{
-        max-width: 405px;
-        width: 100%;
-        height: 100%;
-    }  
-    .nombre{
-        font-size: 3.1rem;
-        padding-top: -1.8rem;
-    }
-    .apellido{
-        font-size: 3.1rem;
-        padding-top: 1.2rem;
-    }
-    .ing{
-        font-size: 0.8rem;
-    }
-    .textoperfil{
-        margin-top: -3rem;
-    }
-    .DirecContacto{
-        font-size: 1rem;
-    }
-}
-
-@media(min-width:650px) and (max-width:900px) {
-    .foto{
-        max-width: 405px;
+        max-width: 395px;
         width: 100%;
         height: 100%;
     }  
@@ -319,6 +439,31 @@
     .apellido{
         font-size: 3.1rem;
         margin-top: -5rem;
+    }
+    .ing{
+        font-size: 0.8rem;
+    }
+    .textoperfil{
+        margin-top: -3rem;
+    }
+    .DirecContacto{
+        font-size: 1rem;
+    }
+}
+@media(min-width:650px) and (max-width:889px) {
+    .foto{
+        max-width: 375px;
+        width: 100%;
+        height: 100%;
+    }  
+    .nombre{
+        font-size: 2.8rem;
+        margin-top: 4rem;
+
+    }
+    .apellido{
+        font-size: 2.8rem;
+        margin-top: -4rem;
     }
     .ing{
         font-size: 0.8rem;
@@ -334,7 +479,7 @@
 
 @media(min-width:573px) and (max-width:649px) {
     .foto{
-        max-width: 370px;
+        max-width: 360px;
         width: 100%;
         height: 100%;
     }  
@@ -345,7 +490,7 @@
     }
     .apellido{
         font-size: 2.5rem;
-        margin-top: -5rem;
+        margin-top: -4rem;
     }
     .ing{
         font-size: 0.75rem;
@@ -374,7 +519,7 @@
     }
     .apellido{
         font-size: 2.2rem;
-        margin-top: -6.5rem;
+        margin-top: -6rem;
     }
     .ing{
         font-size: 0.7rem;
