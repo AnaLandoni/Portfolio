@@ -3,9 +3,10 @@ body{
     margin: 0;
     padding: 0;
 }
+
 :root{
-    --colortipografiaprimaria: #242424;
-    --colortipografiasecundiaria: #b2b2b8;
+    --colortipografiaprimaria:#242424;
+    --colortipografiasecundiaria:#b2b2b8;
     --colortipografiasecundariaintensa:#999d9e;
     --colortipografiaterciaria: #cacad0;
     --colorelementos: #9ab5d2;
